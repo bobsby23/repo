@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TrenerTG Dog Academy</title>
+</head>
+<body>
+<header>
+    <img src="/logo2.png" alt="TrenerTG Logo" class="logo">
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="create-account.html">Account Creation</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="account-settings.html">Account Settings</a></li>
+            <li><a href="chat.html" id="start-chat" class="glowing-button">Start Chat</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        <div class="chat-panel">
+            <!-- ChatGPT content goes here -->
+        </div>
+        <div class="chat-history">
+            <!-- Chat history goes here (hidden by default) -->
+        </div>
+        <!-- Your website content goes here -->
+        <div id="chat-container">
+            <div id="chat-window">
+                <div id="history">
+                    <!-- Chat messages will be displayed here -->
+                </div>
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </main>
+    <!-- Other HTML pages, forms, and content -->
+    <footer>
+    <div class="footer-buttons">
+        <button id="language-toggle" onclick="toggleLanguage()">EN</button>
+        <button id="theme-toggle" onclick="toggleTheme()">Dark/Light</button>
+        <a href="#">Privacy & Policy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contacts</a>
+    </div>
+    <div class="copyright">
+        The entirety of this site is protected by copyright © 2023 TrenerTG, Inc. Sofia, 21-vi Vek Street, Suite 23, 1700, Bulgaria
+    </div>
+    </footer>
+
+    <script src="script.js"></script>
+<button id="top-button" onclick="scrollToTop()">^</button>
+</body>
+</html>
+

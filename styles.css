@@ -1,0 +1,96 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure at least viewport height */
+}
+
+main {
+    flex-grow: 1; /* Allow main content to grow and push footer to the bottom */
+}
+
+/* Navigation Menu */
+nav {
+    float: right;
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff7f50; /* Change color on hover */
+}
+
+/* Center the contact form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100%; /* Take the full height of the main container */
+    text-align: center;
+}
+
+.contact-form h1 {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 10px;
+    text-align: center; /* Center-align text */
+    position: relative; /* Set footer as a relative positioned container */
+}
+
+.footer-buttons {
+    position: absolute; /* Position the buttons absolutely within the footer */
+    bottom: 10px; /* Align them to the bottom */
+    right: 10px; /* Align them to the right */
+}
+
+.copyright {
+    position: absolute; /* Position the copyright text absolutely within the footer */
+    bottom: 10px; /* Align it to the bottom */
+    left: 50%; /* Center-align horizontally */
+    transform: translateX(-50%); /* Adjust for horizontal centering */
+}
+
+/* Dark Theme */
+.dark-theme {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+/* Centered Content Styles */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Take the full viewport height */
+    text-align: center;
+}
+
+/* Your specific styles go here */
